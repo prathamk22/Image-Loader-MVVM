@@ -15,5 +15,6 @@ Just clone or download the repository and fire up in Android studio and rest And
 * Retrofit
 * Glide
 * Recycler View
+* Data Binding
          
         
