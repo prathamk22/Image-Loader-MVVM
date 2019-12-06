@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.Fragments.Search">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textSize="30sp"
+            android:layout_margin="20dp"
+            android:fontFamily="sans-serif"
+            android:background="@null"
+            android:hint="Enter id to search"
+            android:imeOptions="actionSearch"
+            android:inputType="number"/>
+
+        <ProgressBar
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editText"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progress_circular"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/progress_circular"
+            android:id="@+id/imageView"
+            android:contentDescription="@null"/>
+
+    </RelativeLayout>
+
+</layout>
