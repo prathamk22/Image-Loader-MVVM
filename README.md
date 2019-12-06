@@ -7,3 +7,13 @@ Just clone or download the repository and fire up in Android studio and rest And
 
 # Project Structure
 ![Structure](https://i.ibb.co/5BpmxQf/Image-Loader-Chart-1.jpg)
+
+# Libraries Used
+Markup : * Java
+         * Paging Library 
+         * View Model
+         * Retrofit
+         * Glide
+         * Recycler View
+         
+        
